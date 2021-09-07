@@ -1,6 +1,7 @@
-module Lib
-    ( someFunc
-    ) where
+module Lib where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+double :: Num a => a -> a
+double x = x * 2
+
+listComprehension :: [Integer]
+listComprehension = [a | a <- [1,2,3], a < 3]
