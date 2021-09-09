@@ -1,4 +1,4 @@
-module Lib where
+module Chapter01 where
 
 double :: Num a => a -> a
 double x = x * 2
